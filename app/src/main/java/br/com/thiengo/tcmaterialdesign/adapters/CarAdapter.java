@@ -17,7 +17,7 @@ import br.com.thiengo.tcmaterialdesign.domain.Car;
 import br.com.thiengo.tcmaterialdesign.interfaces.RecyclerViewOnClickListenerHack;
 
 /**
- * Created by ${USER} on ${DATE}
+ * Created by ${Paulo} on ${2015/07/14}
  */
 public class CarAdapter extends RecyclerView.Adapter<CarAdapter.MyViewHolder> {
     private List<Car> mList;
