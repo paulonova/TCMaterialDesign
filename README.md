@@ -1,0 +1,7 @@
+# ReciclerView
+ReciclerView - MaterialDesign 2
+This is the RecyclerView that came to replace both the ListView and the GridView (including support for both entities). The RecyclerView is much more efficient than the two older implementations, even using a ViewHolder configuration almost the same (can not define optimization only in the aspect of ViewHolder). One of the great advantages of RecyclerView is the flexibility to change LayoutManager without having to implement a code of truck only have versions of tiles or cards on our list.
+
+As with ListView and GridView RecyclerView need extra bodies to function, if we have the LayoutManager (in the video used the LinearLayoutManager) which is responsible for redenrização of view of each item on the device's screen. We have the Adapter that is responsible to link the last set given to him the view (that will be the view of each item RecyclerView) and then send that view to the LayoutManager. And finally we have the ViewHolder which is responsible for the views created in the cache onCreateViewHolder () method to subsequently reuse them then optimizing working with RecyclerView.
+
+I ended up skipping the part of the show RecyclerView horizontally, just go on the same line that put LinearLayoutManager.VERTICAL and change to LinearLayoutManager.HORIZONTAL. The implementations of other LayoutManagers likely to come in the next video which will also show the CardView. Stay tuned as the implementation of the Listener Click on RecyclerView because there is no simple method as in ListView for this functionality
